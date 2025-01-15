@@ -115,6 +115,8 @@ p {
     & h2 {
         color: var(--tan);
         margin-top: -5px;
+        font-size: 5rem;
+        margin: 8px;
     }
 
     & .description {
@@ -159,5 +161,11 @@ p {
 
     & .like {
         width: 22%;
+
     }
+}
+
+.buttons {
+    display: flex;
+    gap: 8px;
 }
