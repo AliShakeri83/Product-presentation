@@ -1,8 +1,11 @@
-let sizes = document.querySelectorAll('#sizeProduct')
+let sizes = document.querySelectorAll('#sizeProduct');
 
 sizes.forEach((size) => {
     size.addEventListener('click', (e) => {
-        let item = e.target
-        item.className = 'focus'
-    })
-})
+        let item = e.target;
+        sizes.forEach((s) => {
+            s.classList.remove('focus');
+        });
+        item.classList.add('focus');
+    });
+});
