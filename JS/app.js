@@ -3,10 +3,10 @@ let colorProduct = document.querySelectorAll('#colorProduct')
 let imgProduct = document.querySelector('.imgProduct')
 
 let allColorProduct = [
-    {id:1,src: './IMG/image (1).png'},
+    {id:1,src: './IMG/image (3).png'},
     {id:2,src: './IMG/image (2).png'},
     {id:3,src: './IMG/image.png'},
-    {id:4,src: './IMG/image (3).png'}
+    {id:4,src: './IMG/image (4).png'}
 ]
 
 sizes.forEach((size) => {

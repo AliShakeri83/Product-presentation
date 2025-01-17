@@ -173,14 +173,14 @@ p {
 }
 
 #colorProduct:nth-child(1) {
-    background-color: #0077ff;
+    background-color: #096c98;
 }
 #colorProduct:nth-child(2) {
-    background-color: #ffae00;
+    background-color: #000;
 }
 #colorProduct:nth-child(3) {
-    background-color: #7d1320;
+    background-color: #bc0b20;
 }
 #colorProduct:nth-child(4) {
-    background-color: #ff00c8;
+    background-color: #a1a7b5;
 }
