@@ -43,6 +43,7 @@ p {
         display: flex;
         justify-content: center;
         gap: 1rem;
+        cursor: pointer;
     }
 
     & span {
@@ -68,6 +69,7 @@ p {
         display: flex;
         justify-self: center;
         gap: 0.4em;
+        cursor: pointer;
     }
 
     & span {
@@ -168,4 +170,17 @@ p {
 .buttons {
     display: flex;
     gap: 8px;
+}
+
+#colorProduct:nth-child(1) {
+    background-color: #0077ff;
+}
+#colorProduct:nth-child(2) {
+    background-color: #ffae00;
+}
+#colorProduct:nth-child(3) {
+    background-color: #7d1320;
+}
+#colorProduct:nth-child(4) {
+    background-color: #ff00c8;
 }
