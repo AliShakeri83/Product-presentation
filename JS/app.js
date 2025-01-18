@@ -1,6 +1,6 @@
 let sizes = document.querySelectorAll('#sizeProduct');
-let colorProduct = document.querySelectorAll('#colorProduct')
-let imgProduct = document.querySelector('.imgProduct')
+let colorProduct = document.querySelectorAll('#colorProduct');
+let imgProduct = document.querySelector('.imgProduct');
 
 let allColorProduct = [
     {id:1,src: './IMG/image (3).png'},
@@ -22,7 +22,6 @@ sizes.forEach((size) => {
 
 colorProduct.forEach((color) => {
     color.addEventListener('click', (e) => {
-        // console.log(e.target.classList[0]);
         let findIndex = allColorProduct.find((id) => {
             return id.id == e.target.classList[0]
         })
