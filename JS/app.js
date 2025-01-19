@@ -1,6 +1,9 @@
 let sizes = document.querySelectorAll('#sizeProduct');
 let colorProduct = document.querySelectorAll('#colorProduct');
 let imgProduct = document.querySelector('.imgProduct');
+let addBtn = document.querySelector('.add')
+let likeBtn = document.querySelector('.like')
+let likeHeart = document.querySelector('.likeHeart')
 
 let allColorProduct = [
     {id:1,src: './IMG/image (3).png'},
@@ -28,4 +31,14 @@ colorProduct.forEach((color) => {
         console.log(findIndex);
         imgProduct.setAttribute('src', findIndex.src)
     })
+})
+
+addBtn.addEventListener('click', () => {
+    alert('you are regester is shoe')
+})
+
+likeBtn.addEventListener('click', () => {
+    console.log('like');
+    likeHeart.innerHTML = '💕'
+    likeBtn.style.backgroundColor = '#E0C9CB'
 })
